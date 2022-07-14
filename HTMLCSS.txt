@@ -1,0 +1,9 @@
+HTML - Model - 데이타
+CSS - View - 화면
+Javascript - Controller - 제어
+
+VSCode - 확장프로그램
+          emmet
+
+HTML : data, tag(attribute)
+CSS : selector, positon
