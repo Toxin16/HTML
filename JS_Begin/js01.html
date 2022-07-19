@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+    <h3>마우스 올려보세요</h3> <!--에밋//h3{마우스를 올려보세요}-->
+    <hr>
+    <img src="img/apple.jpg" alt="사과이미지"
+    onmouseover="this.src='img/banana.jpg'"
+    onmouseout="this.src='img/apple.jpg'">
+</div>
+<script>
+    document.writeln("<h3> 자바스크립트로 글자 표현하고 있습니다.</h3>");
+    document.writeln("<hr>");
+    document.writeln("<h3> 자바스크립트로 글자 표현하고 있습니다.</h3>");
+</script>
+</body>
+</html>
