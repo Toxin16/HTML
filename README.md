@@ -3,9 +3,9 @@ https://toxin16.github.io/HTML/ <br>
 ![2022-07-24 (3)](https://user-images.githubusercontent.com/109052012/180644888-6a0207a0-31c2-42d3-97a4-3b460d6f9454.png)
 
 **Element:**
-- <script>google_translate
+- (script) google_translate
   - includedLanguages : 'en,ja,es'
-- <css>mouse_hover
+- (css) mouse_hover
   - profile_scale
   - button_color
 
