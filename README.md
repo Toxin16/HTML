@@ -17,7 +17,7 @@ https://toxin16.github.io/HTML/ <br>
     <meta charset="UTF-8">
     <meta property="og:title" content="강성훈 프로필 링크">
     <meta property="og:description" content="간단한 링크 트리 연습">
-    <meta property="og:image content" src="judo.jpg">
+    <meta property="og:image content" src="profile.gif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kang sunghun portfolio</title>
     <style>
@@ -30,7 +30,7 @@ https://toxin16.github.io/HTML/ <br>
             height: 100px;
             border-radius: 100%;
             border: 2px solid white;
-            background-image: url('judo.jpg');
+            background-image: url('profile.gif');
             background-position: center;
             background-size: cover;
         }
