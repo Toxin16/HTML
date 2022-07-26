@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+        document.write('1 2 3 4 5 6 7 8 9 10 <br><br>');
+        
+        let i = 1;
+        while (i <= 10) {
+            document.write(i + ' ');
+            i++; // ++i; i=i+1; i+=1;
+        }
+        document.write('<br><br>');
+
+        // 홀수 출력(2씩 증가)
+        i = 1;
+        while (i <= 10) {
+            document.write(i + ' ');
+            i += 2; // ++i; i=i+1; i+=1;
+        }
+        document.write('<br><br>');
+
+        // 홀수 출력(if 사용)
+        i = 1;
+        while (i <= 10) {
+            if(i%2 == 1)
+            document.write(i + ' ');
+            i++; // ++i; i=i+1; i+=1;
+        }
+        document.write('<br><br>');
+
+        // 3의 배수 출력 한 라인에 10개씩
+        i = 1;
+        let cnt = 0;
+        while(i <= 100) {
+            if(i%3 == 0) {
+                document.write(i +' ');
+                cnt++;
+                if(cnt%10==0){
+                document.write('<br>');
+                }
+            }
+            i++; // ++i; i=i+1; i+=1;
+        }
+        document.write('<br><br>');
+
+        //1부터 10까지 합
+        i = 1;
+        let sum = 0;
+        while(i <= 10) {
+            sum += i; //sum = sum + i;
+            i++;
+        }
+        document.write('1부터 10까지의 합 = ' + sum);
+        document.write('<br><br>');
+
+        //1부터 100까지의 수 중에 3의 배수들의 합
+        i = 1;
+        sum = 0;
+        while(i <= 100) {
+            if(i%3  == 0) {
+                sum += i;
+            }
+            i++;
+        }
+        document.write('1부터 100까지 중에 3의 배수의 합 = ' + sum);
+        document.write('<br><br>');
+
+        //1~100까지 합 중에 8의 배수를 생략한 합
+        i = 1; hap = 0;
+        while (i <= 100) {
+            if(i % 8 == 0) {
+                i++;
+                continue;   //명령을 실행하지 않고 바로 증감식로, while문에선 조건식으로
+            }
+            hap += i;
+            i++;
+        }
+        document.write('1~100까지 중에 8의 배수를 생략한 합 = ' + hap);
+        document.write('<br><br>');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
