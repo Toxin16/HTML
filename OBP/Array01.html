@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>[]로 배열 만들기</h3>
+    <hr>
+    <script defer>
+        let plots = [20, 5, 18, 5, 20];
+        document.write("var plots = [20, 5, 18, 5, 20]<br>");
+        document.write('plots.length = [');
+        for(let i = 0; i < plots.length; i++) {
+            if(i == plots.length - 1) //마지막이면 숫자만 출력하기
+                document.write(plots[i]);
+            else
+            document.write(plots[i] + ', ');
+        }
+        document.write('] <br><br>');
+        for(let i = 0; i < plots.length; i++) {
+            let size = plots[i];
+            while(size>0){
+                document.write('*');
+                size--;
+            }
+            document.write(plots[i] +'<br>');
+        }
+    </script>
+</body>
+</html>

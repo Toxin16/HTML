@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script defer="defer">
+            function compareNumbers(a, b) { //숫자정렬
+                return a - b;
+            }
+            function lottoNum() {
+                let lotto = [];
+                let i = 0;
+                while (i < 6) {
+                    let n = Math.floor(Math.random() * 45) + 1;
+                    if (!sameNum(n)) {
+                        lotto.push(n);
+                        i++;
+                    }
+                }
+                function sameNum(n) {
+                    return lotto.find((e) => (e === n));
+                }
+                return lotto;
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
