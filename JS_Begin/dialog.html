@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+        alert("간단한 경고창입니다. 확인버튼만 있음");          // 경고창 출력
+        let age = prompt("나이를 입력하세요 ", 20);             //age 변수선언, 숫자 입력받아 age에 대입. default값 20
+        age = parseInt(age, 10);                                //입력받은 값 age를 10진수로 변환하여 age에 대입
+        let bValue = confirm("당신은 성인인가요?");             //confirm으로 메세지 창 출력, 확인 취소를 입력받은 값을 bValue에 대입
+        document.write(bValue + "<br>");                        //bValue값 출력
+        if(confirm("성인인가요?"))                              //confirm로 메세지 출력. 확인버튼 입력받으면 아랫줄 출력
+            document.write("당당히 세상을 향해 나아가세요!<br>");
+        else                                                    //취소버튼 입력받으면 아랫줄 출력
+            document.write("조금 더 공부하세요!<br>"); 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
