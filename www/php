@@ -1,3 +1,13 @@
  http://localhost/IntroPHP/if01.php
  
 laragon apache 실행
+
+220818 수업 필기
+scheme, path, query 구분 = parse_url
+parse_str = 주소 ? 아래의 키, 값을 배열로 만듦.
+ex) 
+$str1 = "http://www.php.edu/testurl.html?name=kim&age=28";
+$str2 = parse_url ($str1);
+parse_str ($str2["query"], $abc);	//abc라는 이름의 배열에 가져옴
+print "이름: " . $abc["name"] . "<br>";
+print "나이: " . $abc["age"] . "<br>";
