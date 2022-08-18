@@ -3,6 +3,7 @@
 laragon apache 실행
 
 220818 수업 필기
+dump = 정보 출력
 scheme, path, query 구분 = parse_url
 parse_str = 주소 ? 아래의 키, 값을 배열로 만듦.
 ex) 
