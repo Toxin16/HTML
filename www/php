@@ -8,6 +8,6 @@ parse_str = 주소 ? 아래의 키, 값을 배열로 만듦.
 ex) 
 $str1 = "http://www.php.edu/testurl.html?name=kim&age=28";
 $str2 = parse_url ($str1);
-parse_str ($str2["query"], $abc);	//abc라는 이름의 배열에 가져옴
+parse_str ($str2["query"], $abc);	// str2(str1의 정보)쿼리를 abc라는 이름으로 배열생성
 print "이름: " . $abc["name"] . "<br>";
 print "나이: " . $abc["age"] . "<br>";
