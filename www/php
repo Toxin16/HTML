@@ -12,3 +12,6 @@ $str2 = parse_url ($str1);
 parse_str ($str2["query"], $abc);	// str2(str1의 정보)쿼리를 abc라는 이름으로 배열생성
 print "이름: " . $abc["name"] . "<br>";
 print "나이: " . $abc["age"] . "<br>";
+
+
+implode = 문자열로 나열
