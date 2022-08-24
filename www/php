@@ -21,3 +21,4 @@ rublic, private 차이점 정리해서 readme
 
 cmd
 type c:\laragon\www\file\juliet.txt
+"./juliet.txt"  //자신의 디렉토리에 있을 때 
