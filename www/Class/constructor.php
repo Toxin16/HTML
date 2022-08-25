@@ -1,34 +1,31 @@
 <?php
-class Fruit {
+class Fruit{
     private $_fruit_name;
-    private $_price;
     private $_color;
-    function __construct($name, $price, $color) {   #__construct()함수를 생성자로 이용
+    private $_price;
+    function __construct($name, $color, $price) {
         $this->_fruit_name = $name;
-        $this->_price = $price;
         $this->_color = $color;
+        $this->_price = $price;
     }
-    function print_fruit () {
-        print "Fruit name : $this->_fruit_name<br>";
-        print "Fruit name : $this->_price<br>";
-        print "Fruit name : $this->_color<br>";
-        print "<br>";
+    function setPrice($price){
+        $this->_price = $price;
     }
-
-    function setPrice($price) {     # setter
-        $this->_price = $price;     # 가격 변동
+    function print_fruit(){
+        print "Fruit Name: " . $this->_fruit_name . "<br>";
+        print "Fruit Color: " . $this->_color . "<br>";
+        print "Fruit Price: " . $this->_price . "<br>";
     }
-    function getPrice() {   # getter
-        return $this->_price;       # 가격 가져옴
+    function getPrice(){
+        return $this->_price;
     }
 }
-
-$Apple = new Fruit('Apple', 1000, 'red');   # 6번줄 함수에 바로 대입
-$Orange = new Fruit('Orange', 2000, 'orange');
-$Banana = new Fruit('Banana', 3000, 'yellow');
-$Apple->print_fruit();
-$Orange->print_fruit();
-$Banana->print_fruit();
-$Banana->setPrice(1200);    # 11번줄 setter 사용
-$Banana->print_fruit();
+$apple = new Fruit("사과","red",1000);
+$banana = new Fruit ("바나나","yellow",700);
+$cherry = new Fruit ("체리", "red",1500);
+$apple->print_fruit();
+$banana->print_fruit();
+$cherry->print_fruit();
+$cherry->setPrice(1200);
+$cherry->print_fruit();
 ?>

@@ -1,23 +1,26 @@
 <?php
-class Student {     # student class 선언
-    public $studentId, $studentName;    # 클래스내 변수 선언
-
-    public function StudentPrint() {    # 클래스 내 함수 선언
-        print "ID : " . $this->studentId . "<br>";
-        print "Name : " . $this->studentName . "<br>";
+class Stud{
+    public $stdID;
+    public $stdName;
+    public function prtStd(){
+        print "ID : " . $this->stdID . "<br>";
+        print "Name : " . $this->stdName . "<br>";
     }
 }
 
-$kim = new Student();   # 객체 생성
-$lee = new Student();
-$choi = new Student();
-$kim->studentId = "2016123456";     # 객체 내 멤버에 접근 : ->
-$kim->studentName = "Kim";
-$lee->studentId = "2016001234";
-$lee->studentName = "Lee";
-$choi->studentId = "2016789456";
-$choi->studentName = "Choi";
-$kim->studentPrint();
-$lee->studentPrint();
-$choi->studentPrint();
+class Professor{
+    public $id;
+    public $name;
+    public $addr;
+    public $roomNuber;
+}
+$std01 = new Stud();
+$std02 = new Stud();
+$std01->stdID = "20190001";
+$std02->stdID = "20190002";
+$std01->stdName = "Kim";
+$std02->stdName = "Lee";
+$std01->prtStd();
+$std02->prtStd();
+
 ?>
