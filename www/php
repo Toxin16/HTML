@@ -40,3 +40,5 @@ key(tel필드 등 유일하게 식별 가능한 필드(name필드는 동명이�
 http://localhost/phpmyadmin
 CREATE DATABASE abc; DROP DATABASE abc;
 Number of columns: 필드수
+
+https://codewithawa.com/posts/admin-and-user-login-in-php-and-mysql-database
