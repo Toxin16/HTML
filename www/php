@@ -29,3 +29,8 @@ post, get : GET은 서버의 리소스에서 데이터를 요청할 때, POST는
 카카오오븐, 아파치echarts
 foreach : 배열에서 하나씩 가져오기 반복
 에러 고치기 https://m.blog.naver.com/hschoi82/221688262066
+
+
+220831
+database
+요소 : field(name, age 등 연관성끼리 묶음), recorrd(홍길동, 30), key(전화번호 등 유일하게 식별가능한 필드), data, table
