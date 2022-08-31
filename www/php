@@ -35,4 +35,8 @@ foreach : 배열에서 하나씩 가져오기 반복
 database
 요소 : field(name, age 등 연관성끼리 묶음), recorrd(홍길동, 30), 
 key(tel필드 등 유일하게 식별 가능한 필드(name필드는 동명이인 가능성 있으므로)), data, table
+키 지정시 속도향상
 
+http://localhost/phpmyadmin
+CREATE DATABASE abc; DROP DATABASE abc;
+Number of columns: 필드수
