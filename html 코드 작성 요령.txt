@@ -1,0 +1,6 @@
+컨텐츠를 구조화시키기
+
+table>tbody>tr*4>th+td
+section>h2+p
+section>h2+ul>li*4
+target="_blank" : 새탭에서 열기
