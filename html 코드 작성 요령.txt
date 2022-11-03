@@ -4,3 +4,14 @@ table>tbody>tr*4>th+td
 section>h2+p
 section>h2+ul>li*4
 target="_blank" : 새탭에서 열기
+
+ul>(li>a)*4 
+<ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+</ul>
+
+a>img //이미지 삽입
+
