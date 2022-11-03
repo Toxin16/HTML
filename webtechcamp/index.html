@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할일목록</title> <!---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css"> <!--css파일 링크-->
+    <link rel="stylesheet" href="./css/todo.css"> <!--css파일 링크-->
+    <script src="./js/todo.js"></script><!--jss파일 링크-->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="indx.html"><img src="./images/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="todo.html">할일목록</a></li>
+                <li><a href="calc.html">연산게임</a></li>
+                <li><a href="bird.html">앵무잡기</a></li>
+                <li><a href="speed.html">반응속도</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="score-container">
+            <p>칭찬점수:<sapn>0</sapn>점</p>
+            <button class="default-btn">점수 저장</button>
+        </section>
+        <section>
+            <h2>할일목록</h2>
+            <input class="default-input" type="text">
+            <button class="addTodoBtn">+</button>
+        </section>
+        <!-- <h2>내 누적 점수는?</h2>
+        <p><span>0</span>점</p>
+        <button class="default-btn">랜덤 게임 시작하기</button> -->
+    </main>
+    <footer>
+        Copyleft @ 2022-11-03 All Rights Reserved.
+    </footer>
+</body>
+</html>

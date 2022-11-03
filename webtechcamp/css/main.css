@@ -1,0 +1,51 @@
+* {     /**/
+    list-style: none;   
+    text-decoration: none;  /*list 동그라미 없앰*/
+}
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    overflow: hidden;   /*스크롤 없앰*/
+    margin: 0;
+}
+header {
+    padding: 0 50px;
+}
+
+header > nav {
+    display: flex;      /*리스트 우측으로 보냄*/
+    justify-content: space-between;
+    border-bottom: 1px solid black; /*밑줄*/
+}
+.logo {
+    width: 100px;   /*사진크기 설정*/
+}
+header > nav > ul > li {
+    display: inline-block;  /*list를 인라인블락으로 설정(한줄로 표현)*/
+    padding: 0 15px;
+}
+/**/
+header > nav > ul > li > a { 
+    color: black; /*링크 a태그를 검정으로*/
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(244,244,244);
+    border-top: 1px solid rgb(218,218,218); /*경계선*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 50px;
+    font-size: 0.8rem;
+    color: gray;
+}
+.default-btn {  /*버튼클래스 이름*/
+    padding: 5px 15px;
+    background-color: honeydew;
+    border: 1px solid black;
+    border-radius: 3px;
+}
