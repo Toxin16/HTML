@@ -1,0 +1,35 @@
+https://wpcp.graysky.co.kr/
+kmove07.graysky.co.kr/
+kmove07.graysky.co.kr/wp-admin
+
+kmove07
+kmove2022@
+
+toggle
+image Carousel
+
+technote.graysky.co.kr
+백업 플러그인 UpdraftPlus WordPress Backup Plugin
+upload backup files
+
+워드프레스 css 파일 추가
+html 넣기
+php 페이지추가
+
+
+
+
+
+메인페이지 설명추가
+사진배치(크게), 간격조정
+색 변경
+배경 - 흰색
+버튼 - 파랑
+
+
+https://kmove07.graysky.co.kr/home-2/
+
+
+
+
+https://startbootstrap.com/
